@@ -1,0 +1,68 @@
+{
+  "model_name": "Decision Tree",
+  "feature_names": [
+    "position",
+    "temperature",
+    "voltage"
+  ],
+  "metrics": {
+    "accuracy": 0.7284,
+    "precision": 0.0663,
+    "recall": 0.064,
+    "f1": 0.0651,
+    "balanced_accuracy": 0.4538,
+    "specificity": 0.8437,
+    "roc_auc": 0.4571,
+    "pr_auc": 0.1396,
+    "confusion_matrix": {
+      "tn": 76930,
+      "fp": 14255,
+      "fn": 14801,
+      "tp": 1012
+    },
+    "total_samples": 106998,
+    "actual_faults": 15813,
+    "predicted_faults": 15267,
+    "fit_time_sec": 0.2459,
+    "inference_latency_ms": 0.0003,
+    "model_name": "Decision Tree"
+  },
+  "sha256_checksum": "bbea7704ad02585b148a8d89181b61b0035bfb9aaf08e4dc7af5d216bc97c0f3",
+  "extra_metadata": {
+    "train_runs": [
+      "20240105_165300",
+      "20240105_165972",
+      "20240320_152031",
+      "20240320_153841",
+      "20240320_155664",
+      "20240321_122650",
+      "20240325_135213",
+      "20240425_093699",
+      "20240425_094425",
+      "20240426_141190",
+      "20240426_141532",
+      "20240426_141726",
+      "20240426_141980",
+      "20240503_163963",
+      "20240503_164435",
+      "20240503_164675",
+      "20240503_165189"
+    ],
+    "test_runs": [
+      "20240105_164214",
+      "20240325_152902",
+      "20240325_155003",
+      "20240426_140055",
+      "20240426_141602",
+      "20240426_141938"
+    ],
+    "split_strategy": "grouped",
+    "cleaning_report": {
+      "original_rows": 235854,
+      "duplicates_removed": 0,
+      "glitches_clipped": 6292,
+      "nans_imputed": 0,
+      "final_rows": 235854
+    }
+  }
+}

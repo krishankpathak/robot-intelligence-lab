@@ -1,0 +1,32 @@
+{
+  "model_name": "Logistic Regression",
+  "feature_names": [
+    "position",
+    "temperature",
+    "voltage"
+  ],
+  "metrics": {
+    "accuracy": 0.6949,
+    "precision": 0.0222,
+    "recall": 0.0247,
+    "f1": 0.0234,
+    "balanced_accuracy": 0.4179,
+    "specificity": 0.8111,
+    "roc_auc": 0.2956,
+    "pr_auc": 0.098,
+    "confusion_matrix": {
+      "tn": 73961,
+      "fp": 17224,
+      "fn": 15422,
+      "tp": 391
+    },
+    "total_samples": 106998,
+    "actual_faults": 15813,
+    "predicted_faults": 17615,
+    "fit_time_sec": 0.1928,
+    "inference_latency_ms": 0.0002,
+    "model_name": "Logistic Regression"
+  },
+  "sha256_checksum": "c63f51fb4ace0816db58b8d1a285634a68c5b2a8384c43293db68c36348dc1cb",
+  "extra_metadata": {}
+}
